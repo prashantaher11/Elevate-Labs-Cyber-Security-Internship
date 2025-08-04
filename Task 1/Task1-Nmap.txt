@@ -48,25 +48,3 @@ Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (3 hosts up) scanned in 33.06 seconds
 
-
-
-1. IP Addresses and Open Ports Found
-
-IP Address		Open Ports											Service Name	
-192.168.56.1		135/tcp, 139/tcp, 445/tcp, 902/tcp, 912/tcp, 3306/tcp			MSRPC, NetBIOS, Microsoft-DS, ISS RealSecure, APEX 																		Mesh, MySQL
-192.168.56.100	None (all ports filtered)										—
-192.168.56.101	None (all ports closed)										—
-
-2. Potential Security Risks from Open Ports
-
-Here's a breakdown of each open port on 192.168.56.1 and the associated security risks:
-
-Port		Service			Potential Risks
-
-135		MSRPC			Targeted by malware like WannaCry; allows remote procedure calls—can expose DCOM.
-139		NetBIOS-SSN		Used in SMB file sharing; vulnerable to info leakage, SMB relay attacks.
-445		Microsoft-DS		Commonly targeted by ransomware and SMB vulnerabilities (EternalBlue, etc).
-902		ISS RealSecure?	Typically VMware-related; may allow remote access to VM services.
-912		Apex Mesh?		Uncommon port; custom services may have misconfigurations or lack authentication.
-3306	MySQL			Exposes database to network; if weak credentials are used, it can lead to full DB compromise.
-
