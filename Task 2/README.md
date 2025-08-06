@@ -10,7 +10,7 @@
 
 ---
 
-##  1️. Email Summary
+##  1. Email Summary
 
 | Field     | Details                                               |
 |-----------|-------------------------------------------------------|
@@ -34,7 +34,7 @@
 
 ---
 
-##  3️. Email Header Analysis (MXToolbox)
+##  3. Email Header Analysis (MXToolbox)
 
 ###  Header Fields Extracted
 
