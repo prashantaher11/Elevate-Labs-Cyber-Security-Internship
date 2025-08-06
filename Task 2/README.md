@@ -47,7 +47,7 @@
 
 ---
 
-###  Header Analysis Screenshots
+### Header Analysis Screenshots
 
 
 <img width="1892" height="865" alt="Screenshot 2025-08-06 164037" src="https://github.com/user-attachments/assets/8f53e864-cf2b-42d9-a24b-a685a23e2b64" />
@@ -56,7 +56,7 @@
 
 ---
 
-###  Technical Indicators of Spoofing
+### Technical Indicators of Spoofing
 
 | Evidence | Explanation |
 |----------|-------------|
@@ -67,7 +67,7 @@
 
 ---
 
-##  How We Know It's a Spoofed Email
+## How We Know It's a Spoofed Email
 
 | Technique Used     | Result |
 |--------------------|--------|
@@ -79,7 +79,7 @@
 
 ---
 
-##  Summary of Phishing Traits
+## Summary of Phishing Traits
 
 -  **Spoofed sender domain**
 -  **Urgent language to scare the user**
