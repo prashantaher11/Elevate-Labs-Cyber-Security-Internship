@@ -1,4 +1,4 @@
-# 📄 Phishing Email Investigation Report  
+#  Phishing Email Investigation Report  
 **Cyber Security Internship – Task 2**  
 **Email Subject:** Action Required: Suspicious Activity Detected  
 **Tool Used:** MXToolbox Header Analyzer  
@@ -10,7 +10,7 @@
 
 ---
 
-## 📬 1️⃣ Email Summary
+##  1️. Email Summary
 
 | Field     | Details                                               |
 |-----------|-------------------------------------------------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 📌 2️⃣ Email Content & Visual Red Flags
+##  2. Email Content & Visual Red Flags
 
 | # | Indicator              | Explanation |
 |---|------------------------|-------------|
@@ -34,9 +34,9 @@
 
 ---
 
-## 🧪 3️⃣ Email Header Analysis (MXToolbox)
+##  3️. Email Header Analysis (MXToolbox)
 
-### ✉️ Header Fields Extracted
+###  Header Fields Extracted
 
 | Header Field | Value |
 |--------------|-------|
@@ -47,7 +47,7 @@
 
 ---
 
-### 🖼️ Header Analysis Screenshots
+###  Header Analysis Screenshots
 
 
 <img width="1892" height="865" alt="Screenshot 2025-08-06 164037" src="https://github.com/user-attachments/assets/8f53e864-cf2b-42d9-a24b-a685a23e2b64" />
@@ -56,37 +56,37 @@
 
 ---
 
-### ⚠️ Technical Indicators of Spoofing
+###  Technical Indicators of Spoofing
 
 | Evidence | Explanation |
 |----------|-------------|
-| ❌ **No SPF/DKIM/DMARC Results** | Email lacks authentication — likely spoofed. |
-| ❌ **Unverified Domain**         | `secure-login.com` is not owned by YourBank. |
-| ❓ **No IP Origin Info**         | Missing details prevent traceability. |
-| ✅ **Header Present**            | Basic headers found, but spoofers often manipulate them. |
+|  **No SPF/DKIM/DMARC Results** | Email lacks authentication — likely spoofed. |
+|  **Unverified Domain**         | `secure-login.com` is not owned by YourBank. |
+|  **No IP Origin Info**         | Missing details prevent traceability. |
+|  **Header Present**            | Basic headers found, but spoofers often manipulate them. |
 
 ---
 
-## 🧠 🔐 How We Know It's a Spoofed Email
+##  How We Know It's a Spoofed Email
 
 | Technique Used     | Result |
 |--------------------|--------|
-| ✅ Visual Inspection | Mismatched domain, fake urgency, layout issues |
-| ✅ Header Analysis   | Lacks proper authentication (SPF, DKIM, DMARC) |
-| ✅ Branding Check    | Generic logo used, no consistency with official design |
-| ✅ Link Behavior     | Button likely leads to phishing site |
-| ✅ Grammar Review    | Spacing and typo issues common in fake emails |
+|  Visual Inspection | Mismatched domain, fake urgency, layout issues |
+|  Header Analysis   | Lacks proper authentication (SPF, DKIM, DMARC) |
+|  Branding Check    | Generic logo used, no consistency with official design |
+|  Link Behavior     | Button likely leads to phishing site |
+|  Grammar Review    | Spacing and typo issues common in fake emails |
 
 ---
 
-## ✅ Summary of Phishing Traits
+##  Summary of Phishing Traits
 
-- 📛 **Spoofed sender domain**
-- 🚨 **Urgent language to scare the user**
-- 👤 **Generic greeting ("Dear Customer")**
-- 🏦 **Fake bank branding and logos**
-- 🔗 **Credential harvesting link**
-- 🛑 **Missing authentication headers (SPF, DKIM, DMARC)**
+-  **Spoofed sender domain**
+-  **Urgent language to scare the user**
+-  **Generic greeting ("Dear Customer")**
+-  **Fake bank branding and logos**
+-  **Credential harvesting link**
+-  **Missing authentication headers (SPF, DKIM, DMARC)**
 
 ---
 
