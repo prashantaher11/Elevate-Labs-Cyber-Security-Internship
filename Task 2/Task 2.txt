@@ -1,0 +1,57 @@
+ Phishing Email Investigation Report
+Cyber Security Internship – Task 2
+Email Subject: Action Required: Suspicious Activity Detected
+Tool Used: MXToolbox Header Analyzer
+Date: August 6, 2025
+
+1️⃣ Email Summary (Based on Header & Email Preview)
+Field	Details
+From	YourBank Security Team <support@yourbank.secure-login.com>
+To	John Doe <johndoe123@gmail.com>
+Date	Tue, 5 Aug 2025 10:24:32 +0530
+Subject	Action Required: Suspicious Activity Detected
+
+2️⃣ Email Content & Visual Red Flags (Screenshot 1)
+#	Indicator	Explanation
+1	Spoofed Sender Domain	Appears to be from "YourBank", but actual domain is secure-login.com — a fake lookalike domain.
+2	No Personalization	Uses generic greeting "Dear Customer", not the recipient’s name.
+3	Urgency & Threat	"Verify within the next 24 hours" triggers panic and hasty action.
+4	Phishing Button	“Verify Your Account” likely redirects to a malicious phishing site.
+5	Grammatical Errors	Words like "att empts" and "tem porarily" are spaced incorrectly — signs of poor quality.
+6	Fake Branding	Logo and branding mimic a real bank but are generic and unverifiable.
+
+3️⃣ Email Header Analysis via MXToolbox (Screenshot 2 & 3)
+✉️ Header Info Extracted:
+Header Field	Value
+From	YourBank Security Team <support@yourbank.secure-login.com>
+To	John Doe <johndoe123@gmail.com>
+Subject	Action Required: Suspicious Activity Detected
+Date	Tue, 5 Aug 2025 10:24:32 +0530
+
+⚠️ Technical Indicators of Spoofing
+Evidence	Explanation
+❌ No SPF/DKIM/DMARC Results Visible	These are missing or not validated, which weakens domain authentication. A legitimate bank would have SPF/DKIM/DMARC configured.
+❌ Domain secure-login.com is unverified	The sending domain is not recognized as YourBank’s domain, likely registered for phishing.
+❓ No IP Origin Info	Header lacks server/IP info for traceability — a suspicious omission.
+✅ Header Found	Only basic header fields were captured, which is common when spoofers avoid detection by manipulating header formatting.
+
+🔐 How You Know It's a Spoofed Email
+Technique Used	Result
+✅ Visual Inspection	Mismatched domain, poor formatting, fake urgency
+✅ Header Analysis	No valid SPF/DKIM/DMARC; fake domain
+✅ Branding Review	Logo used is generic, not official
+✅ Link Suspicion	"Verify" button likely points to a phishing website
+✅ Grammar Check	Unprofessional typos & spacing errors
+
+✅ Summary of Phishing Traits (As Required by Task 2 PDF)
+Spoofed sender domain pretending to be a bank
+
+Urgent language prompting hasty action
+
+Generic greeting (Dear Customer)
+
+Fake branding and fake support email
+
+Potential credential harvesting link
+
+Missing authentication headers (SPF, DKIM, DMARC)
