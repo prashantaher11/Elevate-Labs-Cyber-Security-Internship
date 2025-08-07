@@ -1,4 +1,4 @@
-# 🔐 Nessus Vulnerability Scan Summary
+#  Nessus Vulnerability Scan Summary
 
 **Scan Date:** August 7, 2025  
 **Scanner:** Tenable Nessus  
@@ -7,18 +7,18 @@
 
 ---
 
-## 🚨 Most Critical Vulnerabilities
+##  Most Critical Vulnerabilities
 
 The following are the key **medium-severity vulnerabilities** detected during the scan. No **critical** or **high** severity vulnerabilities were reported.
 
-### 1. 🔐 SSL Certificate Cannot Be Trusted
+### 1.  SSL Certificate Cannot Be Trusted
 - **Severity:** Medium
 - **CVSS v3.0 Score:** 6.5
 - **Plugin ID:** 51192
 - **Details:** The SSL certificate used by the remote service cannot be trusted. It may be self-signed or issued by an untrusted certificate authority.
 - 🔗 [More Info](https://www.tenable.com/plugins/nessus/51192)
 
-### 2. 🔐 SMB Signing Not Required
+### 2.  SMB Signing Not Required
 - **Severity:** Medium
 - **CVSS v3.0 Score:** 5.3
 - **Plugin ID:** 57608
@@ -27,7 +27,7 @@ The following are the key **medium-severity vulnerabilities** detected during th
 
 ---
 
-## ℹ️ Informational Findings
+##  Informational Findings
 
 There are 31 informational findings, including:
 - DNS server and host information  
@@ -40,7 +40,7 @@ These do not pose direct security threats but help in network fingerprinting.
 
 ---
 
-## ✅ Recommended Actions
+##  Recommended Actions
 
 1. **Replace or renew the untrusted SSL certificate** with one from a trusted Certificate Authority.  
 2. **Enable SMB signing** to prevent potential MITM attacks.  
