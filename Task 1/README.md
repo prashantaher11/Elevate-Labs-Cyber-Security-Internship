@@ -4,6 +4,8 @@
 
 This task involved scanning the local network `192.168.56.101/24` using `nmap` to identify live hosts and open ports, followed by a basic security risk assessment based on the scan results.
 
+![WhatsApp Image 2025-07-24 at 12 26 03_abb71964](https://github.com/user-attachments/assets/8c1c062b-e821-43e1-a28d-036af31f0268)
+
 ---
 
 ## 1️⃣ IP Addresses and Open Ports Found
