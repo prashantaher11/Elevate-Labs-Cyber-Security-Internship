@@ -102,7 +102,7 @@ The goal was to **capture live network traffic using Wireshark**, filter it by p
 
 ---
 
-## 🎯 Outcome
+##  Outcome
 - Captured and analyzed multiple network protocols.
 - Learned to apply Wireshark display filters to isolate traffic types.
 - Understood packet details for ARP, DNS, HTTP, ICMP, and TCP.
